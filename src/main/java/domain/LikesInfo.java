@@ -5,8 +5,18 @@ public class LikesInfo {
     private int count;
     //    наличие отметки "Мне нравится" от данного пользователя
     private boolean availabilityLike;
-    //    наличие отметки "Мне нравится" от друга/друзей данного пользователя
+    //     true, если есть наличие отметки "Мне нравится" от друга/друзей данного пользователя
     private boolean friendLikes;
+//      true, если текущий пользователь может поставить отметку «Мне нравится»
+    private boolean canLike;
+
+    public boolean isCanLike() {
+        return canLike;
+    }
+
+    public void setCanLike(boolean canLike) {
+        this.canLike = canLike;
+    }
 
     public int getCount() {
         return count;

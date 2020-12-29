@@ -7,6 +7,16 @@ public class InvestmentInfo {
     private String name;
     //    id вложения
     private int id;
+//    тип вложения
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public String getLink() {
         return link;

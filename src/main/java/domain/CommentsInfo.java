@@ -3,14 +3,45 @@ package domain;
 public class CommentsInfo {
     //    количество комментариев
     private int count;
-    //    может ли данный пользователь комментировать запись
+    //    true, если данный пользователь может комментировать запись
     private boolean canPost;
-    //    показывать ли сначала наиболее интересные комментарии
+    //    true, если показывать сначала наиболее интересные комментарии
     private boolean popularComment;
-    //    показывать ли следующий комментарий
+    //     true, если показывать следующий комментарий
     private boolean nextComment;
     //    количество отметок "Мне нравится" на комментариях
     private int countLike;
+
+//     true, если текущий пользователь может комментировать запись
+    private boolean groupsCanPost;
+//     true, если текущий пользователь может закрыть комментарии к записи
+    private boolean canClose;
+//     true, если текущий пользователь может открыть комментарии к записи
+    private boolean canOpen;
+
+    public boolean isGroupsCanPost() {
+        return groupsCanPost;
+    }
+
+    public void setGroupsCanPost(boolean groupsCanPost) {
+        this.groupsCanPost = groupsCanPost;
+    }
+
+    public boolean isCanClose() {
+        return canClose;
+    }
+
+    public void setCanClose(boolean canClose) {
+        this.canClose = canClose;
+    }
+
+    public boolean isCanOpen() {
+        return canOpen;
+    }
+
+    public void setCanOpen(boolean canOpen) {
+        this.canOpen = canOpen;
+    }
 
     public int getCount() {
         return count;

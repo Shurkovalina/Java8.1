@@ -3,8 +3,18 @@ package domain;
 public class RepostsInfo {
     //    количество репостов записи
     private int count;
-    //    наличие репоста от данного пользователя
+    //     true, если есть наличие репоста от данного пользователя
     private boolean availabilityRepost;
+//     true, если текущий пользователь может сделать репост записи
+    private boolean canPublish;
+
+    public boolean isCanPublish() {
+        return canPublish;
+    }
+
+    public void setCanPublish(boolean canPublish) {
+        this.canPublish = canPublish;
+    }
 
     public int getCount() {
         return count;

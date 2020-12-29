@@ -1,0 +1,58 @@
+package domain.attachment;
+
+public class Link {
+    private String url;
+    private String caption;
+    private String title;
+    private String description;
+    private String previewPage;
+    private String previewUrl;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getCaption() {
+        return caption;
+    }
+
+    public void setCaption(String caption) {
+        this.caption = caption;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getPreviewPage() {
+        return previewPage;
+    }
+
+    public void setPreviewPage(String previewPage) {
+        this.previewPage = previewPage;
+    }
+
+    public String getPreviewUrl() {
+        return previewUrl;
+    }
+
+    public void setPreviewUrl(String previewUrl) {
+        this.previewUrl = previewUrl;
+    }
+}

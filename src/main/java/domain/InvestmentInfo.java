@@ -7,7 +7,7 @@ public class InvestmentInfo {
     private String name;
     //    id вложения
     private int id;
-//    тип вложения
+    //    тип вложения
     private String type;
 
     public String getType() {

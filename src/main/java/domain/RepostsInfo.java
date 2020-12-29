@@ -5,7 +5,7 @@ public class RepostsInfo {
     private int count;
     //     true, если есть наличие репоста от данного пользователя
     private boolean availabilityRepost;
-//     true, если текущий пользователь может сделать репост записи
+    //     true, если текущий пользователь может сделать репост записи
     private boolean canPublish;
 
     public boolean isCanPublish() {

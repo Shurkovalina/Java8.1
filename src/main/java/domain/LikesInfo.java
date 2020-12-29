@@ -7,7 +7,7 @@ public class LikesInfo {
     private boolean availabilityLike;
     //     true, если есть наличие отметки "Мне нравится" от друга/друзей данного пользователя
     private boolean friendLikes;
-//      true, если текущий пользователь может поставить отметку «Мне нравится»
+    //      true, если текущий пользователь может поставить отметку «Мне нравится»
     private boolean canLike;
 
     public boolean isCanLike() {
